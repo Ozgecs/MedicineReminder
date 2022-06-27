@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50dp">
+
+
+    <EditText
+        android:id="@+id/datebp_edittext"
+        android:layout_width="249dp"
+        android:layout_height="55dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:hint="Tarih seçiniz"
+        android:inputType="none"
+        android:enabled="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.611"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.643"></EditText>
+
+    <EditText
+        android:id="@+id/bt_edittext"
+        android:layout_width="248dp"
+        android:layout_height="49dp"
+        android:background="@drawable/border"
+        android:hint="Büyük Tansiyon"
+        android:inputType="none"
+        android:enabled="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.595"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.429">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/kt_edittext"
+        android:layout_width="249dp"
+        android:layout_height="49dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:hint="Küçük"
+        android:inputType="none"
+        android:enabled="false"
+        android:minEms="5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.617"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.532">
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/addbp_delete"
+        android:layout_width="194dp"
+        android:layout_height="56dp"
+        android:backgroundTint="@color/medicinered"
+        android:gravity="center"
+        android:text="SİL"
+        app:cornerRadius="18dp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.806" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="154dp"
+        android:layout_height="121dp"
+        android:layout_marginTop="76dp"
+        android:src="@drawable/tansiyon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

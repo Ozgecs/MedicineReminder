@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/idw"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="6dp"
+        android:padding="3dp"
+        android:visibility="visible" />
+
+
+    <TextView
+        android:id="@+id/weight"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_toRightOf="@+id/idw"
+        android:maxLines="1"
+        android:padding="3dp"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/olcumsonucu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="200dp"
+        android:layout_toRightOf="@+id/idw"
+        android:maxLines="1"
+        android:padding="3dp"
+        android:text="Ölçüm:"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/datew"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/weight"
+        android:layout_marginLeft="130dp"
+        android:layout_toRightOf="@+id/idw"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:padding="3dp"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/olcumtarihi"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/weight"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="210dp"
+        android:layout_toRightOf="@+id/idw"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:padding="3dp"
+        android:text="Ölçüm Tarihi:"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="0dp"
+        app:srcCompat="@drawable/pictureweight" />
+
+
+</RelativeLayout>

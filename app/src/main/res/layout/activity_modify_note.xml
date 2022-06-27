@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50dp">
+
+
+    <EditText
+        android:id="@+id/subject_edittext"
+        android:layout_width="257dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:hint="Başlık"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <EditText
+        android:id="@+id/description_edittext"
+        android:layout_width="254dp"
+        android:layout_height="114dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/border"
+
+        android:ems="10"
+        android:hint="İçerik"
+        android:inputType="textMultiLine"
+        android:minLines="5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subject_edittext">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="155dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="16dp"
+        android:layout_weight="1"
+        android:text="Düzenle"
+        app:cornerRadius="18dp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/medicinered"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/description_edittext" />
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="155dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="32dp"
+        android:layout_weight="1"
+        android:text="Sil"
+        app:cornerRadius="18dp"
+        android:backgroundTint="@color/medicinered"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_update" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="136dp"
+        android:src="@drawable/prescription"
+        android:layout_height="124dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

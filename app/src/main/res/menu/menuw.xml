@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ozge.sqliteapp.WeightListActivity">
+
+    <item
+        android:id="@+id/addw_record"
+        android:icon="@drawable/plus"
+        android:orderInCategory="100"
+        android:title="Add Item"
+        app:showAsAction="always"/>
+
+</menu>

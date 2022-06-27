@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="90dp"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/idm"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="16dp"
+        android:padding="3dp"
+        android:visibility="visible" />
+
+
+    <TextView
+        android:id="@+id/meetname"
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_toRightOf="@+id/idm"
+        android:maxLines="1"
+        android:padding="3dp"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/maddress"
+        android:layout_width="376dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/meetname"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="27dp"
+        android:layout_toRightOf="@+id/idm"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:padding="3dp"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/day"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/meetname"
+        android:layout_marginLeft="60dp"
+        android:layout_toRightOf="@+id/idm"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:padding="3dp"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@drawable/randevu2" />
+
+
+</RelativeLayout>
+

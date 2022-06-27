@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/user/Desktop/Med-Dose-master/app/src/main/res/drawable/border.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/Med-Dose-master/app/src/main/res/layout/activity_add_bp.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/Med-Dose-master/app/src/main/res/layout/activity_add_doctor.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/Med-Dose-master/app/src/main/res/layout/activity_add_meet.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/Med-Dose-master/app/src/main/res/layout/activity_add_note.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/Med-Dose-master/app/src/main/res/layout/activity_add_weight.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/Med-Dose-master/app/src/main/res/layout/activity_alarm.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/Med-Dose-master/app/src/main/res/layout/activity_bp_record.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/Med-Dose-master/app/src/main/res/layout/activity_doctor_record.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/Med-Dose-master/app/src/main/res/layout/activity_home.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/Med-Dose-master/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/Med-Dose-master/app/src/main/res/layout/activity_meet_record.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/Med-Dose-master/app/src/main/res/layout/activity_modify_bp.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/Med-Dose-master/app/src/main/res/layout/activity_modify_doctor.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/Med-Dose-master/app/src/main/res/layout/activity_modify_meet.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/Med-Dose-master/app/src/main/res/layout/activity_modify_note.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/Med-Dose-master/app/src/main/res/layout/activity_modify_pulse.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/Med-Dose-master/app/src/main/res/layout/activity_modify_weight.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/Med-Dose-master/app/src/main/res/layout/activity_olcum.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/Med-Dose-master/app/src/main/res/layout/activity_view_record.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/Med-Dose-master/app/src/main/res/layout/activity_weight_record.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/Med-Dose-master/app/src/main/res/layout/add_medicine_dialog.xml" value="0.264" />
+        <entry key="..\:/Users/user/Desktop/Med-Dose-master/app/src/main/res/layout/fragment_bp_list.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/Med-Dose-master/app/src/main/res/layout/fragment_dashboard.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/Med-Dose-master/app/src/main/res/layout/fragment_emp_list.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/Med-Dose-master/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/Med-Dose-master/app/src/main/res/layout/fragment_meet_list.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/Med-Dose-master/app/src/main/res/layout/fragment_pulse_list.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/Med-Dose-master/app/src/main/res/layout/fragment_settings.xml" value="0.17300724637681159" />
+        <entry key="..\:/Users/user/Desktop/Med-Dose-master/app/src/main/res/layout/fragment_weight_list.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/Med-Dose-master/app/src/main/res/layout/history_item.xml" value="0.17300724637681159" />
+        <entry key="..\:/Users/user/Desktop/Med-Dose-master/app/src/main/res/layout/medicine_list.xml" value="0.264" />
+        <entry key="..\:/Users/user/Desktop/Med-Dose-master/app/src/main/res/layout/select_time_item.xml" value="0.4" />
+        <entry key="..\:/Users/user/Desktop/Med-Dose-master/app/src/main/res/menu/add_dialog_menu.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/Med-Dose-master/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/Med-Dose-master/app/src/main/res/menu/menu.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/Med-Dose-master/app/src/main/res/menu/menu_app_bar.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/Med-Dose-master/app/src/main/res/menu/menubp.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/Med-Dose-master/app/src/main/res/menu/menud.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/Med-Dose-master/app/src/main/res/menu/menum.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/Med-Dose-master/app/src/main/res/menu/menup.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/Med-Dose-master/app/src/main/res/menu/menuw.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/Med-Dose-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.17037037037037037" />
+        <entry key="..\:/Users/user/Desktop/MedicineReminderSonDeneme/app/src/main/res/drawable/ic_delete_black_24dp.xml" value="0.26927083333333335" />
+        <entry key="..\:/Users/user/Desktop/MedicineReminderSonDeneme/app/src/main/res/layout/activity_add_bp.xml" value="0.1875" />
+        <entry key="..\:/Users/user/Desktop/MedicineReminderSonDeneme/app/src/main/res/layout/activity_add_doctor.xml" value="0.1875" />
+        <entry key="..\:/Users/user/Desktop/MedicineReminderSonDeneme/app/src/main/res/layout/activity_add_meet.xml" value="0.1875" />
+        <entry key="..\:/Users/user/Desktop/MedicineReminderSonDeneme/app/src/main/res/layout/activity_add_note.xml" value="0.1875" />
+        <entry key="..\:/Users/user/Desktop/MedicineReminderSonDeneme/app/src/main/res/layout/activity_add_pulse.xml" value="0.365625" />
+        <entry key="..\:/Users/user/Desktop/MedicineReminderSonDeneme/app/src/main/res/layout/activity_add_weight.xml" value="0.365625" />
+        <entry key="..\:/Users/user/Desktop/MedicineReminderSonDeneme/app/src/main/res/layout/activity_alarm.xml" value="0.365625" />
+        <entry key="..\:/Users/user/Desktop/MedicineReminderSonDeneme/app/src/main/res/layout/activity_doctor_record.xml" value="0.365625" />
+        <entry key="..\:/Users/user/Desktop/MedicineReminderSonDeneme/app/src/main/res/layout/activity_home.xml" value="0.12183383991894631" />
+        <entry key="..\:/Users/user/Desktop/MedicineReminderSonDeneme/app/src/main/res/layout/activity_pulse_record.xml" value="0.12310030395136778" />
+        <entry key="..\:/Users/user/Desktop/MedicineReminderSonDeneme/app/src/main/res/layout/activity_weight_record.xml" value="0.4" />
+        <entry key="..\:/Users/user/Desktop/MedicineReminderSonDeneme/app/src/main/res/layout/add_medicine_dialog.xml" value="0.264" />
+        <entry key="..\:/Users/user/Desktop/MedicineReminderSonDeneme/app/src/main/res/layout/fragment_bp_list.xml" value="0.365625" />
+        <entry key="..\:/Users/user/Desktop/MedicineReminderSonDeneme/app/src/main/res/layout/fragment_dashboard.xml" value="0.365625" />
+        <entry key="..\:/Users/user/Desktop/MedicineReminderSonDeneme/app/src/main/res/layout/fragment_doc_list.xml" value="0.365625" />
+        <entry key="..\:/Users/user/Desktop/MedicineReminderSonDeneme/app/src/main/res/layout/fragment_emp_list.xml" value="0.365625" />
+        <entry key="..\:/Users/user/Desktop/MedicineReminderSonDeneme/app/src/main/res/layout/fragment_home.xml" value="0.1875" />
+        <entry key="..\:/Users/user/Desktop/MedicineReminderSonDeneme/app/src/main/res/layout/fragment_meet_list.xml" value="0.1875" />
+        <entry key="..\:/Users/user/Desktop/MedicineReminderSonDeneme/app/src/main/res/layout/fragment_pulse_list.xml" value="0.1875" />
+        <entry key="..\:/Users/user/Desktop/MedicineReminderSonDeneme/app/src/main/res/layout/fragment_weight_list.xml" value="0.1875" />
+        <entry key="..\:/Users/user/Desktop/MedicineReminderSonDeneme/app/src/main/res/layout/medicine_list.xml" value="0.1875" />
+        <entry key="..\:/Users/user/Desktop/MedicineReminderSonDeneme/app/src/main/res/layout/select_time_item.xml" value="0.1875" />
+        <entry key="..\:/Users/user/Desktop/MedicineReminderSonDeneme/app/src/main/res/menu/add_dialog_menu.xml" value="0.365625" />
+        <entry key="..\:/Users/user/Desktop/MedicineReminderSonDeneme/app/src/main/res/menu/bottom_nav_menu.xml" value="0.365625" />
+        <entry key="..\:/Users/user/Desktop/MedicineReminderSonDeneme/app/src/main/res/menu/menu_app_bar.xml" value="0.365625" />
+        <entry key="..\:/Users/user/Desktop/MedicineReminderSonDeneme/app/src/main/res/menu/menuw.xml" value="0.2361111111111111" />
+        <entry key="..\:/Users/user/Desktop/MedicineReminderSonDeneme/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/MedicineReminderSonDeneme/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="EntryPointsManager">
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="butterknife.OnClick" />
+    </list>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

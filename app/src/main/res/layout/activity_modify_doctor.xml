@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50dp">
+
+    <EditText
+        android:id="@+id/namesurname_edittext"
+        android:layout_width="263dp"
+        android:layout_height="49dp"
+        android:background="@drawable/border"
+        android:hint="Ad-Soyad"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.288">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/expertise_edittext"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:hint="Uzmanlık"
+        android:inputType="textMultiLine"
+        android:minEms="5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.413"></EditText>
+
+    <EditText
+        android:id="@+id/pnumber_edittext"
+        android:layout_width="259dp"
+        android:layout_height="52dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:hint="Telefon Numarası"
+        android:inputType="number"
+        android:minEms="5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.539"></EditText>
+
+
+    <EditText
+        android:id="@+id/address_edittext"
+        android:layout_width="261dp"
+        android:layout_height="52dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:hint="Adres"
+        android:inputType="number"
+        android:minEms="5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.667"></EditText>
+
+    <Button
+        android:id="@+id/btn_updated"
+        android:layout_width="155dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="16dp"
+        android:layout_weight="1"
+        android:text="Düzenle"
+        app:cornerRadius="18dp"
+
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/medicinered"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/address_edittext" />
+
+    <Button
+        android:id="@+id/btn_deleted"
+        android:layout_width="155dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="32dp"
+        android:layout_weight="1"
+        android:text="Sil"
+        app:cornerRadius="18dp"
+
+        android:backgroundTint="@color/medicinered"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_updated" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="137dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="28dp"
+        android:src="@drawable/medicalteam"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

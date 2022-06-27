@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ozge.medicinereminder">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <!--Burada uygulamanın içindeki activityler tanımlandı. Aynı zamanda splashscreen
+     ve diğer uiler burada tanımlandı. Tanımlanmadığı zaman hata veriyor unutma !! -->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".OlcumActivity"
+            android:exported="false" />
+
+
+        <activity
+            android:name=".kiloekle.ModifyWeightActivity"
+            android:exported="false" />
+        <activity
+            android:name=".kiloekle.AddWeightActivity"
+            android:exported="false" />
+        <activity
+            android:name=".kiloekle.WeightListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".nabızekle.ModifyPulseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".nabızekle.AddPulseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".nabızekle.PulseListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".doktorekle.ModifyDoctorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".doktorekle.AddDoctorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".doktorekle.DoctorListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".notekle.ModifyNoteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".notekle.AddNoteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".notekle.NoteListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".randevuekle.MeetListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".randevuekle.ModifyMeetActivity"
+            android:exported="false" />
+        <activity
+            android:name=".randevuekle.AddMeetActivity"
+            android:exported="false" />
+        <activity
+            android:name=".tansiyoekle.BpListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".tansiyoekle.ModifyBpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".tansiyoekle.AddBpActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".AlarmActivity"
+            android:excludeFromRecents="true"
+            android:showOnLockScreen="true"
+            android:showWhenLocked="true"
+            android:turnScreenOn="true" />
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home"/>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".ui.home.AlarmReceiver" />
+    </application>
+
+</manifest>
