@@ -39,7 +39,7 @@ bir arayüz ve karışık olmayan uygulama ayarları sağlamayı amaçlar.
 
 ## Ekstra notlar 
 
-- Okulum için yapmış olduğum bir projedir, istediğiniz gibi inceleyebilir ve farklı özellikler ekleyebilirsiniz, kaynak belirtmeyi unutmayın :)
+- Okulum için yapmış olduğum bir projedir, istediğiniz gibi inceleyebilir ve farklı özellikler ekleyebilirsiniz, kaynak belirtmeyi unutmayın.
 - Alarm kısmı githubda bulunan med-dose adlı bir uygulamadan uyarlamadır, uygulamanın linki: https://github.com/abd99/Med-Dose
 - Alarm kısmında med-dose uygulamasına ek olarak alındı tuşu ve istenen günden itibaren hatırlatılmaya başlaması gibi özellikler aktif edilmiştir.
-- Uygulamada kullanılan ikonlar lisanslı olabilir. İkonları kullanacaksanız dikkatli olun :)
+- Uygulamada kullanılan ikonlar lisanslı olabilir. İkonları kullanacaksanız kendi sitesinden indirmenizi ve atıf yapmanızı öneririm.
